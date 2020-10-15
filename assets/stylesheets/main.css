@@ -59,6 +59,21 @@ margin-right: 60px;
     width: 100%;
     height: auto;
 }
+.sign-1 {
+    background-color: rgb(238, 235, 235);
+}
+.sign-1 input{
+width: 300px;
+}
+.try {
+    margin-left: 0 !important;
+}
+.sign-1-btn {
+    width: 300px;
+    background-color: rgb(245, 17, 17);
+    border: 3px solid red;
+    border-radius: 2px;
+}
 @media (max-width:1000px) {
     #Layer_1 {
         width: 120px;
