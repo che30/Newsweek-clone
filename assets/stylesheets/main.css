@@ -54,6 +54,11 @@ margin-right: 60px;
     height: 100%;
    fill: white;
 }
+.countries img,
+.my-turn img {
+    width: 100%;
+    height: auto;
+}
 @media (max-width:1000px) {
     #Layer_1 {
         width: 120px;
