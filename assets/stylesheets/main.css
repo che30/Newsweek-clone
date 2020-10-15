@@ -1,0 +1,61 @@
+.nav-top {
+     background-color: red !important;
+     position: fixed !important;
+     top: 0 !important;
+     z-index: 1000;
+     width: 100% ;
+  }
+
+.btn-sm {
+    border-radius: 24px;
+    background-color: yellow;
+}
+
+
+.middle-nav  {
+    padding-top: 110px !important;
+}
+
+.middle-nav li a {
+   color: black;
+   font-size: 17px;
+ 
+}
+.middle-nav input{
+width: 80px;
+border: 1px solid black;
+margin-right: 60px;
+}
+.nav-bottom {
+    width: 1100px;
+}
+.nav-bottom li a{
+   
+    line-height: 24px;
+    color: #807f84;
+    font-size: 16px;
+}
+.form-width {
+    border: none;
+    
+}
+.nav-bottom li a{
+    font-size: 14px;
+    font: 18px/18px "Roboto Condensed",sans-serif;
+    color: #807f84;
+  
+}
+
+
+.hover-red:hover{
+    color: red;
+}#Layer_1{
+     width: 400px; 
+    height: 100%;
+   fill: white;
+}
+@media (max-width:1000px) {
+    #Layer_1 {
+        width: 120px;
+    }
+}
