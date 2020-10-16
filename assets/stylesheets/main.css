@@ -55,9 +55,9 @@ margin-right: 60px;
    fill: white;
 }
 .countries img,
-.my-turn img {
+.my-turn img,.width-100 {
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 .sign-1 {
     background-color: rgb(238, 235, 235);
@@ -73,6 +73,9 @@ width: 300px;
     background-color: rgb(245, 17, 17);
     border: 3px solid red;
     border-radius: 2px;
+}
+.row-height {
+    height: 40px;
 }
 @media (max-width:1000px) {
     #Layer_1 {
