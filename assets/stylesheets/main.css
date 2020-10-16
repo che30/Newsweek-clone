@@ -14,6 +14,7 @@
 
 .middle-nav  {
     padding-top: 80px !important;
+    padding-bottom: 10px;
     position: relative;
 }
 .border-bottom {
@@ -40,6 +41,8 @@ margin-right: 60px;
 }
 .nav-bottom {
     width: 1100px;
+    margin-top: -10px;
+    padding-bottom: 10px;
 }
 .nav-bottom li a{
    
@@ -51,10 +54,13 @@ margin-right: 60px;
     border: none;
     
 }
+.grey {
+    color: #807f84;
+}
 .nav-bottom li a{
     font-size: 14px;
     font: 18px/18px "Roboto Condensed",sans-serif;
-    color: #807f84;
+   
   
 }
 
@@ -78,9 +84,9 @@ margin-right: 60px;
 .sign-1 input{
 width: 245px;
 }
-.try {
+/* .try {
     margin-left: 0 !important;
-}
+} */
 .sign-1-btn {
     width: 250px;
     background-color: rgb(245, 17, 17);
@@ -99,13 +105,22 @@ width: 245px;
 }
 .color-black {
     font-size: 20px;
-    color: black;
+    color: rgb(5, 4, 4);
 }
 .on-rgb {
     position: absolute;
     left: -250px;
-    top: 10px;
+    top: -100px;
  
+}
+.light-grey {
+    color: rgb(39, 38, 38);
+}
+.font-15 {
+font-size: 15px;
+}
+.color-black-1{
+font-size: 20px;
 }
 .sb {
     width: 120px;
@@ -115,6 +130,12 @@ width: 245px;
 }
 .inp-bg {
    width: 150px;
+}
+.bt-thick-grey {
+    border-top: 3px solid grey;
+}
+.special-grey{
+    border-top: 2px solid rgb(189, 187, 187);
 }
 .btn-red {
     background-color: red;
