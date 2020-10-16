@@ -106,6 +106,22 @@ width: 245px;
     border-radius: 2px;
     border: 2px solid red;
 }
+.inp-bg {
+   width: 150px;
+}
+.btn-red {
+    background-color: red;
+    border: 1px solid red;
+    width: 150px;
+}
+.news-let-form{
+    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+/* width: 1000px; */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
 @media (max-width:1000px) {
     #Layer_1 {
         width: 120px;
