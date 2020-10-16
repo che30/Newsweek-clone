@@ -14,6 +14,7 @@
 
 .middle-nav  {
     padding-top: 110px !important;
+    position: relative;
 }
 
 .middle-nav li a {
@@ -23,8 +24,12 @@
 }
 .middle-nav input{
 width: 80px;
-border: 1px solid black;
 margin-right: 60px;
+}
+.search {
+    position: absolute;
+    right: 65px;
+    top: 115px;
 }
 .nav-bottom {
     width: 1100px;
@@ -61,21 +66,45 @@ margin-right: 60px;
 }
 .sign-1 {
     background-color: rgb(238, 235, 235);
+    width: 275px;
 }
 .sign-1 input{
-width: 300px;
+width: 245px;
 }
 .try {
     margin-left: 0 !important;
 }
 .sign-1-btn {
-    width: 300px;
+    width: 250px;
     background-color: rgb(245, 17, 17);
     border: 3px solid red;
     border-radius: 2px;
 }
-.row-height {
-    height: 40px;
+.rgb-c {
+    position: relative;
+  
+}
+.background-grey {
+    background-color: rgb(243, 242, 242);
+}
+.text-red {
+    color: red;
+}
+.color-black {
+    font-size: 20px;
+    color: black;
+}
+.on-rgb {
+    position: absolute;
+    left: -250px;
+    top: 10px;
+ 
+}
+.sb {
+    width: 120px;
+    background-color: rgb(248, 19, 19);
+    border-radius: 2px;
+    border: 2px solid red;
 }
 @media (max-width:1000px) {
     #Layer_1 {
