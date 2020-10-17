@@ -168,6 +168,12 @@ font-size: 20px;
 .special-grey{
     border-top: 2px solid rgb(189, 187, 187);
 }
+.font-in-depth{
+    font-size: 25px;
+}
+.starting-right-border {
+    border: 1px solid rgb(221, 218, 218);
+}
 .btn-red {
     background-color: red;
     border: 1px solid red;
@@ -182,14 +188,25 @@ background-repeat: no-repeat;
 /* width: 375px; */
 
 } 
+.social-f{
+    font-size: 30px;
+}
 .logo-footer {
      width: 250px;
   
-    fill: white;
-    background-color: red;
+    fill: red;
+    background-color:white;
 } 
 .footer-list {
     border: solid;
+}
+.hover-brown:hover {
+    color: rgb(65, 62, 62);
+}
+.border-rf {
+    border-right: 1px solid rgb(182, 178, 178);
+padding-right: 5px;
+font-size: 15px;
 }
 @media (max-width:983px) {
     .brand {
