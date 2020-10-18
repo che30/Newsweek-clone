@@ -5,6 +5,8 @@ body {
   overflow-x: hidden;
 }
 
+/* main wrapper */
+
 .trouble-logo {
   position: relative;
 }
@@ -72,11 +74,7 @@ a {
 
 .border-right {
   border-right: 1px solid rgb(182, 178, 178);
-
-  /* padding-right: 15px; */
   text-align: center;
-
-  /* border: solid; */
 }
 
 .middle-nav li a {
@@ -265,9 +263,9 @@ blockquote p {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  /* width: 375px; */
 }
+
+/* footersection */
 
 .social-f {
   font-size: 30px;
