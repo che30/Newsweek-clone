@@ -24,7 +24,18 @@ body {
      width: 100% ;
    
   }
-
+  .nav .fas-user {
+      font-size: 35px;
+  }
+  .nav .fa-menu {
+      font-size: 35px;
+  }
+a{
+    color: inherit;
+}
+blockquote p{
+    color: #555;;
+}
 
   .width-80 {
       width: 80px;
