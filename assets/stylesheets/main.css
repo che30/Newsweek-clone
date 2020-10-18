@@ -1,278 +1,315 @@
 body {
-    padding: 0;
-    margin: 0 ;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 .trouble-logo {
-    position: relative;
+  position: relative;
 }
+
 .rectangle {
-    height: 20px;
-    width: 100px; 
-    background-color: red;
-     position: absolute; 
-    top: 91px; 
-    right: -10px;
-    z-index: -1;
+  height: 20px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 91px;
+  right: -10px;
+  z-index: -1;
+}
 
-  }
 .nav-top {
-     background-color: red !important;
-     position: fixed !important;
-     top: 0 !important;
-     z-index: 1000;
-     width: 100% ;
-   
-  }
-  .nav .fas-user {
-      font-size: 35px;
-  }
-  .nav .fa-menu {
-      font-size: 35px;
-  }
-a{
-    color: inherit;
-}
-blockquote p{
-    color: #555;;
+  background-color: red !important;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1000;
+  width: 100%;
 }
 
-  .width-80 {
-      width: 80px;
-  }
-  .triangle-right {
-      height: 30px;
-      z-index: -1;
-      position: absolute;
-        right: 75px;
-      top: 55px; 
-      transform: rotate(-72deg);
+.nav .fas-user {
+  font-size: 15px;
+}
 
-	border-top: 25px solid transparent;
-	border-left: 50px solid red;
-	border-bottom: 25px solid transparent;
+.nav .fa-menu {
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+}
+
+.width-80 {
+  width: 80px;
+}
+
+.triangle-right {
+  height: 30px;
+  z-index: -1;
+  position: absolute;
+  right: 75px;
+  top: 55px;
+  transform: rotate(-72deg);
+  border-top: 25px solid transparent;
+  border-left: 50px solid red;
+  border-bottom: 25px solid transparent;
 }
 
 .btn-sm {
-    border-radius: 24px;
-    background-color: yellow;
+  border-radius: 24px;
+  background-color: yellow;
 }
-.middle-nav  {
-    padding-top: 80px !important;
-    position: relative;
-    font-weight: 900;
-    
+
+.middle-nav {
+  padding-top: 110px !important;
+  position: relative;
+  font-weight: 900;
 }
+
 .border-bottom {
-    border-bottom: 1px solid#f4f5f7;
+  border-bottom: 1px solid#f4f5f7;
 }
-.border-right{
-    border-right: 1px solid rgb(182, 178, 178);
-    /* padding-right: 15px; */
-    text-align: center;
-    /* border: solid; */
+
+.border-right {
+  border-right: 1px solid rgb(182, 178, 178);
+
+  /* padding-right: 15px; */
+  text-align: center;
+
+  /* border: solid; */
 }
 
 .middle-nav li a {
-   color: black;
-   font-size: 16px;
-   text-decoration: none;
- 
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
 }
-.middle-nav input{
-width: 80px;
-margin-right: 60px;
+
+.middle-nav input {
+  width: 80px;
+  margin-right: 60px;
 }
+
 .search {
-    position: absolute;
-    right: 65px;
-    top: 90px;
+  position: absolute;
+  right: 65px;
+  top: 110px;
 }
+
 .space {
-    padding-right:10px;
-    padding-left: 50px;
-    width: 100%;
+  padding-right: 10px;
+  padding-left: 50px;
+  width: 100%;
 }
+
 input::placeholder {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .form-width {
-     border: none; 
-    
+  border: none;
 }
-.grey {
-    color: #807f84;
-}
-.nav-bottom > li {
-     font-size: 15px;
-     line-height: 5px; 
-    font-weight: 900;
-   margin-right: 0px;
-   padding-right: 0px;
-  
-}
-.nav-bottom li a{
-    text-decoration: none;
-}
-blockquote p{
-    font-size: 14px;
-    line-height: 21px;
-    color: #555;
-}
-.hover-red:hover{
-    color: red;
-}.brand {
-     width: 400px; 
-    height: 100%;
-   fill: white;
-}
-.countries img,
-.my-turn img,.width-100 {
-    width: 100%;
-     height: auto; 
 
+.grey {
+  color: #807f84;
 }
+
+.nav-bottom > li {
+  font-size: 15px;
+  line-height: 5px;
+  font-weight: 900;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.nav-bottom li a {
+  text-decoration: none;
+}
+
+blockquote p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+}
+
+.hover-red:hover {
+  color: red;
+}
+
+.brand {
+  width: 400px;
+  height: 100%;
+  fill: white;
+}
+
+.countries img,
+.my-turn img,
+.width-100 {
+  width: 100%;
+  height: auto;
+}
+
 .font-size-small {
-    color: inherit;
-    /* line-height: 30px; */
-    font-size: 18px;
+  font: bold 15px "Roboto Condensed", sans-serif;
 }
+
 .starting {
-    font-size: 25px;
+  font-size: 25px;
 }
+
 .sign-1 {
-    background-color: rgb(238, 235, 235);
-    width: 275px;
+  background-color: rgb(238, 235, 235);
+  width: 275px;
 }
-.sign-1 input{
-width: 245px;
+
+.sign-1 input {
+  width: 245px;
 }
+
 .apply-bg-img {
-    background-image: url("https://d.newsweek.com/en/full/1653518/cover-october-23-2020.jpg?w=360&h=480&q=90&f=e8aecc49d91d80d4475f9fe710c46554");
-    background-image:  center center;
-     background-size:  cover;
-     background-repeat: no-repeat;
-     height: 350px;
-    }
+  background-image: url("https://d.newsweek.com/en/full/1653518/cover-october-23-2020.jpg?w=360&h=480&q=90&f=e8aecc49d91d80d4475f9fe710c46554");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
 
 .sign-1-btn {
-    width: 250px;
-    background-color: rgb(245, 17, 17);
-    border: 3px solid red;
-    border-radius: 2px;
+  width: 250px;
+  background-color: rgb(245, 17, 17);
+  border: 3px solid red;
+  border-radius: 2px;
 }
+
 .rgb-c {
-    position: relative;
-  
+  position: relative;
 }
+
 .background-grey {
-    background-color: rgb(243, 242, 242);
+  background-color: rgb(243, 242, 242);
 }
+
 .text-red {
-    color: red;
+  color: red;
 }
+
 .color-black {
- 
-    color: rgb(5, 4, 4);
+  color: rgb(5, 4, 4);
 }
+
 .on-rgb {
-    position: absolute;
-    left: -220px;
-    top: 25px;
- 
+  position: absolute;
+  left: -220px;
+  top: 25px;
 }
+
 .fx-150 {
-    width: 150px;
+  width: 150px;
 }
+
 .fx-150-2 {
-    width:150px;
+  width: 150px;
 }
+
 .light-grey {
-    color: rgb(39, 38, 38);
+  color: rgb(39, 38, 38);
 }
+
 .font-15 {
-font-size: 15px;
+  font-size: 15px;
 }
-.color-black-1{
-font-size: 20px;
+
+.color-black-1 {
+  font-size: 20px;
 }
+
 .sb {
-    width: 120px;
-    background-color: rgb(248, 19, 19);
-    border-radius: 2px;
-    border: 2px solid red;
+  width: 120px;
+  background-color: rgb(248, 19, 19);
+  border-radius: 2px;
+  border: 2px solid red;
 }
-.my-turn h6 a{
-    font-size: 16px;
+
+.my-turn h6 a {
+  font-size: 16px;
 }
+
 .inp-bg {
-   width: 100%;
+  width: 100%;
 }
 
 .bt-thick-grey {
-    border-top: 3px solid grey;
+  border-top: 3px solid grey;
 }
-.special-grey{
-    border-top: 2px solid rgb(189, 187, 187);
+
+.special-grey {
+  border-top: 2px solid rgb(189, 187, 187);
 }
-.font-in-depth{
-    font-size: 25px;
+
+.font-in-depth {
+  font-size: 25px;
 }
+
 .starting-right-border {
-    border: 1px solid rgb(221, 218, 218);
+  border: 1px solid rgb(221, 218, 218);
 }
+
 .btn-red {
-    background-color: red;
-    border: 1px solid red;
-    width: 100%
+  background-color: red;
+  border: 1px solid red;
+  width: 100%;
 }
- .news-let-form{
-    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
 
-background-position: center center;
-background-size: cover;
-background-repeat: no-repeat;
-/* width: 375px; */
+.news-let-form {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-} 
-.social-f{
-    font-size: 30px;
+  /* width: 375px; */
 }
+
+.social-f {
+  font-size: 30px;
+}
+
 .logo-footer {
-     width: 250px;
-  
-    fill: red;
-    background-color:white;
-} 
+  width: 250px;
+  fill: red;
+  background-color: white;
+}
+
 .footer-list {
-    border: solid;
+  border: solid;
 }
+
 .hover-brown:hover {
-    color: rgb(65, 62, 62);
+  color: rgb(65, 62, 62);
 }
+
 .border-rf {
-    border-right: 1px solid rgb(182, 178, 178);
-padding-right: 5px;
-font-size: 15px;
-}
-@media (max-width:983px) {
-    .brand {
-        width: 120px;
-    }
+  border-right: 1px solid rgb(182, 178, 178);
+  padding-right: 5px;
+  font-size: 15px;
 }
 
- @media (max-width:801px) {
+@media (max-width: 983px) {
+  .brand {
+    width: 120px;
+  }
+}
 
-    .news-let-form{
-        height: 200px;
-        } 
-    
-    }
-    @media (min-width:985px){
-       .middle-nav li{ padding-right: 15px;
-        padding-left: 5px;
-        font-weight: 900;
-        font-size: 10px;
-       }
-    }
+@media (max-width: 801px) {
+  .news-let-form {
+    height: 200px;
+  }
+}
+
+@media (min-width: 985px) {
+  .middle-nav li {
+    padding-right: 15px;
+    padding-left: 5px;
+    font-weight: 900;
+    font-size: 10px;
+  }
+}

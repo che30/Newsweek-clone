@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
   <link rel="stylesheet" href="/assets/stylesheets/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Newsweek</title>
 </head>
 
@@ -15,8 +17,8 @@
   <header>
     <nav class="navbar navbar-expand-lg  navbar-dark bg-dark justify-content-between sticky-top nav-top ">
       <ul class="nav d-none d-lg-block ">
-        <div class="triangle-right"></div>
-        <div class="rectangle"></div>
+        <li class="triangle-right "></li>
+        <li class="rectangle"></li>
         <li class="nav-item"> <a class="nav-link text-white font-weight-bold" href="#"><i
               class="fa fa-cloud"></i><span>26 Douala,
               CM ></span></a> </li>
@@ -37,11 +39,11 @@
             href="#">LOGIN</a> </li>
         <li class="nav-item  d-xs-block d-sm-block d-md-none d-lg-none"> <a class="nav-link text-white" href="#">
             <i class="fa fa-user fas-user"></i></a></li>
-        <a class="nav-link " href="#"> <button type="button" class="btn primary btn-sm font-weight-bold ">SUBSCRIPTION
-            OFFERS></button></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span><i class="text-white fa fa-align-justify fa-menu"></i> </span>
-        </button>
+        <li> <button type="button" class="btn primary btn-sm font-weight-bold ">SUBSCRIPTION
+            OFFERS></button></li>
+        <li><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span><i class="text-white fa fa-align-justify fa-menu"></i> </span>
+          </button></li>
       </ul>
     </nav>
     <div class="container-fluid">
@@ -82,7 +84,7 @@
           </li>
           <li>
             <input type="text" name="search-input" class="form-width " placeholder="Search" />
-            <a href="#"><i class="fas fa-search search"></i></a>
+            <span> <a href="#"><i class="fas fa-search search"></i></a></span>
           </li>
         </ul>
 
@@ -102,17 +104,17 @@
   </header>
   <main class="container-fluid pt-4">
 
-    <section id="trending-storis ">
+    <section>
       <div class="container-fluid ">
         <div class="row ">
           <div class="col-lg col-md-5 ">
-            <section class="featured-stories pt-3 mt-4   mt-lg-0 pt-lg-0 ">
-              <article class=" order-2 order-md-1 ">
+            <section class="featured-stories pt-3 mt-4 mt-lg-0 pt-lg-0 ">
+              <article class=" order-2 order-1 ">
                 <p class="h6 pb-2 grey text-uppercase font-weight-bold">Featured story</p>
                 <figure class="figure">
                   <img
                     src="https://d.newsweek.com/en/full/1649804/early-voting-georgia.jpg?w=397&h=265&q=90&f=6c9bea66de1050d62cbf85500c499b6d"
-                    class="figure-img img-fluid" width="100%" alt="Early voting Georgia">
+                    class="width-100" alt="Early voting Georgia">
                   <figcaption class="figure-caption">
                     <h5><a class=" color-black color-black-1 hover-red font-weight-bold" href="#">Early Voting Begins in
                         Georgia, Videos Show Hundreds Standing in Long Lines</a></h5>
@@ -125,7 +127,7 @@
               </article>
               <article>
                 <figure class="figure">
-                  <img src="/images/boris-johnson.png" width="100%" class="figure-img img-fluid" alt="Boris johnson">
+                  <img src="/images/boris-johnson.png" class="figure-img img-fluid" alt="Boris johnson">
                   <figcaption class="figure-caption">
                     <p class="h5"><a class="color-black font-weight-bold hover-red" href="#">England Reintroduces
                         COVID-19 Restrictions as Second Wave Sweeps
@@ -135,7 +137,7 @@
                   </figcaption>
                 </figure>
               </article>
-              <article class="countries">
+              <article class="countries order-3">
                 <figure class="figure">
                   <figcaption class="figure-caption">
                     <img
@@ -164,13 +166,13 @@
                   </figcaption>
                 </figure>
               </article>
-              <article class="countries">
+              <article class="countries order-4">
                 <figure class="figure ">
                   <figcaption class="figure-caption">
                     <img
                       src="https://d.newsweek.com/en/full/1649537/sanders-harris.jpg?w=397&h=265&q=90&f=5ceffd60cdda2e5474d6aa382c1eeda1"
                       class="figure-img img-fluid" alt="sanders harris">
-                    <h5><a a class="color-black font-weight-bold hover-red" href="#">Harris, Sanders Urge Stimulus Bill
+                    <h5><a class="color-black font-weight-bold hover-red" href="#">Harris, Sanders Urge Stimulus Bill
                         Focus Over Amy Coney Barrett Hearings</a></h5>
                     <p class="light-grey font-15">The senators suggested that a further relief package should be the
                       focus of the Senate, as
@@ -182,13 +184,13 @@
 
           </div>
           <div class="col-lg-5 col-md-7">
-            <section class="top-stories pt-5 mt-4 mt-md-3 pt-md-4 mt-lg-0 pt-lg-0 ">
-              <article class="news order-first order-md-2">
+            <section class="top-stories pt-5 mt-4 mt-md-3 pt-md-4 mt-lg-0 pt-lg-0">
+              <article class="news order-first order-2">
                 <p class="h6 pb-2 text-uppercase grey font-weight-bold"> Top story</p>
                 <figure class="figure">
                   <img
                     src="	https://d.newsweek.com/en/full/1649787/acb-hearing.jpg?w=591&h=364&f=c0403cfc29588f37bd7f2a94292715ce"
-                    width="100%" class="figure-img img-fluid" alt="ACB hearing">
+                     class="figure-img img-fluid" alt="ACB hearing">
                   <figcaption class="figure-caption">
                     <p class="h5"><a class="color-black hover-red font-weight-bold" href="#">Trump Urges Senate to
                         Expedite Barrett Confirmation, Shift to
@@ -205,7 +207,7 @@
               <div class="container-fluid">
                 <div class="row ">
                   <article class="my-turn">
-                    <div class="col-lg-4 my-turn text-uppercase grey font-weight-bold pb-1">MY TURN</div>
+                    <div class="col-lg-4 my-turn text-uppercase grey font-weight-bold pb-1"> MY TURN</div>
                     <div class="row">
                       <div class="col-lg-4 col-md-4">
                         <figure>
@@ -240,6 +242,7 @@
                           </figcaption>
                         </figure>
                       </div>
+                    </div>
                   </article>
                   <div class="container-fluid">
                     <div class="row">
@@ -268,8 +271,9 @@
                                   Live Across The World With A New Love'</a></h6>
                             </figcaption>
                           </figure>
+                        </article>
                       </div>
-                      </article>
+                      
                       <div class="col-lg-4 col-md-4">
                         <article class="my-turn">
                           <figure>
@@ -284,6 +288,7 @@
                         </article>
                       </div>
                     </div>
+
                   </div>
                   <div class="row pt-4 mt-5 ">
                     <div class="container-fluid">
@@ -499,7 +504,7 @@
                     <div class="col-2  ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
                       <h6><a href="#"
@@ -526,7 +531,7 @@
                     <div class="col-2 ">
                       <img
                         src="	https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
 
                   </div>
@@ -551,7 +556,7 @@
                         <div class=" col-2 ">
                           <img class="pr-1"
                             src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                            width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                            width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                         </div>
                         <div class="col-10  pl-5 pb-3">
                           <h6><a href="#"
@@ -560,7 +565,6 @@
                           <blockquote class="blockquote">
                             <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                           </blockquote>
-                          </span>
                         </div>
 
                       </div>
@@ -574,7 +578,7 @@
                     <div class="col-2 ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
                       <h6><a href="#"
@@ -583,7 +587,6 @@
                       <blockquote class="blockquote">
                         <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                       </blockquote>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -594,7 +597,7 @@
                     <div class="col-2 ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
                       <h6><a href="#"
@@ -603,7 +606,6 @@
                       <blockquote class="blockquote">
                         <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                       </blockquote>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -614,7 +616,7 @@
                     <div class="col-2 ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
                       <h6><a href="#"
@@ -623,9 +625,6 @@
                       <blockquote class="blockquote">
                         <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                       </blockquote>
-                      </span>
-                      </span>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -636,7 +635,7 @@
                     <div class="col-2 ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
                       <h6><a href="#"
@@ -645,8 +644,6 @@
                       <blockquote class="blockquote">
                         <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                       </blockquote>
-                      </span>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -657,7 +654,7 @@
                     <div class="col-2 ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10 pl-5 pb-3">
                       <h6><a href="#"
@@ -666,7 +663,7 @@
                       <blockquote class="blockquote">
                         <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                       </blockquote>
-                      </span>
+                     
                     </div>
                   </div>
                 </div>
@@ -677,7 +674,7 @@
                     <div class="col-2">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
                       <h6><a href="#"
@@ -686,7 +683,7 @@
                       <blockquote class="blockquote">
                         <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                       </blockquote>
-                      </span>
+                     
                     </div>
                   </div>
                 </div>
@@ -697,17 +694,15 @@
                     <div class="col-2 ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
-                      <span>
                         <h6><a href="#"
                             class="text-decoration-none hover-red  font-weight-bold font-size-small">McConnell's Rush to
                             Confirm Barrett Ignores Crucial Questions of Principle</a></h6>
                         <blockquote class="blockquote">
                           <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                         </blockquote>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -718,7 +713,7 @@
                     <div class="col-2 ">
                       <img class="pr-1"
                         src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b "
-                        width="63px" height="63px" alt="	Claire Finkelstein and Richard W. Painter 2">
+                        width="63" height="63" alt="	Claire Finkelstein and Richard W. Painter 2">
                     </div>
                     <div class="col-10  pl-5 pb-3">
                       <h6><a href="#"
@@ -727,7 +722,6 @@
                       <blockquote class="blockquote">
                         <p class="text-upper-case"> LAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
                       </blockquote>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -776,9 +770,9 @@
               <figure>
                 <img class="width-100"
                   src="https://d.newsweek.com/en/full/1641924/fe-rbg-banner.jpg?w=466&h=311&l=44&t=48&q=90&f=af0eb1671e67711f928ea0a22de6d298"
-                  class="width" alt="img">
+                 alt="img">
                 <figcaption>
-                  <h5><a class=" color-black font-weight-bold hover-red" href="#">Biden Should Promise to Pack the
+                  <h5><a class="color-black font-weight-bold hover-red" href="#">Biden Should Promise to Pack the
                       Supreme Court to Save It From Partisan War</a></h5>
                 </figcaption>
               </figure>
@@ -789,7 +783,7 @@
               <figure>
                 <img class="width-100"
                   src="https://d.newsweek.com/en/full/1641924/fe-rbg-banner.jpg?w=466&h=311&l=44&t=48&q=90&f=af0eb1671e67711f928ea0a22de6d298"
-                  max-width="100%" alt="img">
+                 alt="img">
                 <figcaption>
                   <h5><a class=" color-black font-weight-bold hover-red" href="#">Biden Should Promise to Pack the
                       Supreme Court to Save It From Partisan War</a></h5>
@@ -900,10 +894,10 @@
                 <img class="width-100"
                   src="https://d.newsweek.com/en/full/1651266/kamala-harris.jpg?w=397&h=295&f=89f8f0fea45460deb977e3d019deb5a9"
                   alt="Cover October 09-16, 2020">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black font-weight-bold hover-red" href="#">Biden Should Promise to Pack the
                       Supreme Court to Save It From Partisan War</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -912,7 +906,7 @@
               <figure>
                 <img class="width-100"
                   src="https://d.newsweek.com/en/full/1651266/kamala-harris.jpg?w=397&h=295&f=89f8f0fea45460deb977e3d019deb5a9"
-                  max-width="100%" alt="img">
+                alt="img">
                 <figcaption>
                   <h5><a class="color-black font-weight-bold hover-red" href="#">Biden Should Promise to Pack the
                       Supreme Court to Save It From Partisan War</a></h5>
@@ -956,10 +950,10 @@
                 <img class="width-100"
                   src="	https://d.newsweek.com/en/full/1651740/usps.jpg?w=397&h=295&f=6e3e13a730230d76bec638c179ccad06"
                   alt="Cover October 09-16, 2020">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black font-weight-bold hover-red" href="#">Biden Should Promise to Pack the
                       Supreme Court to Save It From Partisan War</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -968,7 +962,7 @@
               <figure>
                 <img class="width-100"
                   src="https://d.newsweek.com/en/full/1651848/tardigrade.jpg?w=397&h=295&f=7a6c282542926e90c73d0ffc38095986"
-                  max-width="100%" alt="img">
+                  alt="img">
                 <figcaption>
                   <h5><a class="color-black font-weight-bold hover-red" href="#">Biden Should Promise to Pack the
                       Supreme Court to Save It From Partisan War</a></h5>
@@ -1019,10 +1013,10 @@
                 <img
                   src="https://d.newsweek.com/en/full/1652779/everett-little.jpg?w=397&h=265&f=8e8ba9a95c2212e750167573032e5382"
                   alt="Cover October 09-16, 2020" class="width-100">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black hover-red font-weight-bold" href="#">Lincoln Project Doctors Video to Show
                       Donald Trump Jr. Supporting Biden</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -1058,7 +1052,7 @@
                 <div class="col-3 border-bottom pb-3">
                   <img
                     src="https://d.newsweek.com/en/full/1653618/taxes.jpg?w=95&h=95&f=199b579b5d18c0970427b09b9e151975"
-                    width="100%" alt="img">
+                  class="width-100" alt="img">
                 </div>
                 <div class="col-9">
                   <h6> <a class="color-black hover-red font-weight-bold " href="#">Texas CEO Charged in $2 Billion Tax
@@ -1072,7 +1066,7 @@
                 <div class="col-3 ">
                   <img
                     src="https://d.newsweek.com/en/full/1653541/donald-trump.jpg?w=95&h=95&f=c77011e270d209e5014af0b7c8a70a88"
-                    width="100%" alt="img">
+                   class="width-100" alt="img">
                 </div>
                 <div class="col-9">
                   <h6><a class="color-black hover-red font-weight-bold " href="#">NBC News Remains Silent on Whether
@@ -1098,10 +1092,10 @@
                 <img class="width-100"
                   src="https://d.newsweek.com/en/full/1653613/uss-barry-navy-east-china-sea.jpg?w=397&h=265&f=f8bdf16a694ac52e4aa43eb3f9211aa2"
                   alt="Cover October 09-16, 2020">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black hover-red font-weight-bold" href="#">U.S. Says 'Within International Law' to
                       Sail Near Taiwan Amid China Warning</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -1178,10 +1172,10 @@
                 <img
                   src="https://d.newsweek.com/en/full/1653613/uss-barry-navy-east-china-sea.jpg?w=397&h=265&f=f8bdf16a694ac52e4aa43eb3f9211aa2"
                   alt="Cover October 09-16, 2020" class="width-100">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black hover-red font-weight-bold" href="#">U.S. Says 'Within International Law' to
                       Sail Near Taiwan Amid China Warning</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -1258,10 +1252,10 @@
                 <img
                   src="https://d.newsweek.com/en/full/1653613/uss-barry-navy-east-china-sea.jpg?w=397&h=265&f=f8bdf16a694ac52e4aa43eb3f9211aa2"
                   alt="Cover October 09-16, 2020" class="width-100">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black hover-red font-weight-bold" href="#">U.S. Says 'Within International Law' to
                       Sail Near Taiwan Amid China Warning</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -1315,7 +1309,7 @@
                     class="width-100" alt="img">
                 </div>
                 <div class="col-9">
-                  <h6><a class="color-black hover-red font-weight-bold" class="color-black hover-red font-weight-bold"
+                  <h6><a class="color-black hover-red font-weight-bold" 
                       href="#">NBC News Remains Silent on Whether Trump Will Be Fact Checked in Town Hall</a></h6>
                 </div>
               </div>
@@ -1338,10 +1332,10 @@
                 <img
                   src="https://d.newsweek.com/en/full/1653613/uss-barry-navy-east-china-sea.jpg?w=397&h=265&f=f8bdf16a694ac52e4aa43eb3f9211aa2"
                   alt="Cover October 09-16, 2020" class="width-100">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black hover-red font-weight-bold" href="#">U.S. Says 'Within International Law' to
                       Sail Near Taiwan Amid China Warning</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -1418,10 +1412,10 @@
                 <img
                   src="https://d.newsweek.com/en/full/1653613/uss-barry-navy-east-china-sea.jpg?w=397&h=265&f=f8bdf16a694ac52e4aa43eb3f9211aa2"
                   alt="Cover October 09-16, 2020" class="width-100">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black hover-red font-weight-bold" href="#">U.S. Says 'Within International Law' to
                       Sail Near Taiwan Amid China Warning</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -1496,10 +1490,10 @@
                 <img
                   src="https://d.newsweek.com/en/full/1653613/uss-barry-navy-east-china-sea.jpg?w=397&h=265&f=f8bdf16a694ac52e4aa43eb3f9211aa2"
                   alt="Cover October 09-16, 2020" class="width-100">
-                <figcapion>
+                <figcaption>
                   <h5><a class="color-black hover-red font-weight-bold " href="#">U.S. Says 'Within International Law'
                       to Sail Near Taiwan Amid China Warning</a></h5>
-                </figcapion>
+                </figcaption>
               </figure>
             </article>
           </div>
@@ -1539,9 +1533,8 @@
                     class="width-100" alt="img">
                 </div>
                 <div class="col-9">
-                  <h6><a class="color-black hover-red font-weight-bold " class="color-black hover-red font-weight-bold"
+                  <h6><a class="color-black hover-red font-weight-bold "
                       href="#">Trump or Biden Would Improve Ties</a></h6>
-                  </h6>
                 </div>
               </div>
             </article>
@@ -1585,7 +1578,7 @@
                     Topics You Want to Read!</h6>
                   <p>All Access + Weekly Delivery.
                     Choose A Membership That's Perfect for You!</p>
-                  <button class="sb mr-auto text-white font-weight-bold ">SUBSCRIBE></button>
+                  <button type="button" class="sb mr-auto text-white font-weight-bold ">SUBSCRIBE></button>
                 </div>
                 <div class="row">
                   <span class="on-rgb"><img class="fx-150"
@@ -1628,7 +1621,7 @@
                   </div>
                   <div class="col-lg-12 col-6 pr-lg-3 pl-lg-3  p-0">
 
-                    <button class="text-white font-weight-bold btn-red ">FREE SIGN UP></button>
+                    <button class="text-white font-weight-bold btn-red" type="button">FREE SIGN UP></button>
                   </div>
                 </div>
 
@@ -1645,10 +1638,10 @@
   <!-- footer section -->
   <footer>
     <div class="container-fluid mx-0 ">
-      <div class="row border-bottom">
-        <div class="col-10 mr-auto">
+      <div class="row border-bottom py-3">
+        <div class="col-lg-10 mr-auto">
           <a href="https://www.newsweek.com">
-            <svg version="1.1" id="Layer_1" class="logo-footer" xmlns="http://www.w3.org/2000/svg"
+            <svg version="1.1" id="Layer_2" class="logo-footer" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
               style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
               <g>
@@ -1662,7 +1655,7 @@
             © 2020 NEWSWEEK DIGITAL LLC
           </span>
         </div>
-        <div class="col-2  ml-auto pl-0">
+        <div class="col-lg-2 col-sm-12  ml-auto pl-0">
           <ul class="list-unstyled d-flex justify-content-between ">
             <li><a class="grey social-f" href="#"><i class="fa fa-facebook-square"></i></a></li>
             <li><a class="grey social-f" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -1690,7 +1683,7 @@
 
     <div>
       <ul class="list-unstyled d-flex justify-content-around pt-2 pb-4">
-        <li><a class="grey border-rf hover-brown" class="text-decoration-none" href="#">About Us </a></li>
+        <li><a class="grey border-rf hover-brown text-decoration-none" href="#">About Us </a></li>
         <li><a class="grey border-rf hover-brown" href="#">Corrections </a></li>
         <li><a class="grey border-rf hover-brown" href="#">Contact Us </a></li>
         <li><a class="grey border-rf hover-brown" href="#">Editorial Guidelines </a></li>
@@ -1705,7 +1698,7 @@
       </ul>
     </div>
 
-    </div>
+    
 
   </footer>
   <!-- Optional JavaScript -->
