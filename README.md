@@ -16,7 +16,7 @@ A clone of the newsweek magazine for microverse
 
 ## Live Demo
 
-[Live Demo Link](https://marcelomaidden.github.io/theNextWeb/)
+[Live Demo Link](https://che30.github.io/Newsweek-clone/)
 
 ## Author
 
