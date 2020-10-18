@@ -16,7 +16,7 @@ A clone of the newsweek magazine for microverse
 
 ## Live Demo
 
-[Live Demo Link](https://che30.github.io/Newsweek-clone/)
+[Live Demo Link](https://che30.github.io/Test-news-week/)
 
 ## Author
 
