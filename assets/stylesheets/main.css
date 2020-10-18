@@ -6,6 +6,16 @@ body {
 .trouble-logo {
     position: relative;
 }
+.rectangle {
+    height: 20px;
+    width: 100px; 
+    background-color: red;
+     position: absolute; 
+    top: 91px; 
+    right: -10px;
+    z-index: -1;
+
+  }
 .nav-top {
      background-color: red !important;
      position: fixed !important;
@@ -20,10 +30,12 @@ body {
       width: 80px;
   }
   .triangle-right {
+      height: 30px;
+      z-index: -1;
       position: absolute;
-        right: -15px;
+        right: 75px;
       top: 55px; 
-      transform: rotate(-60deg);
+      transform: rotate(-72deg);
 
 	border-top: 25px solid transparent;
 	border-left: 50px solid red;
@@ -70,9 +82,12 @@ margin-right: 60px;
     padding-left: 50px;
     width: 100%;
 }
+input::placeholder {
+    font-size: 18px;
+}
 
 .form-width {
-    border: none;
+     border: none; 
     
 }
 .grey {
