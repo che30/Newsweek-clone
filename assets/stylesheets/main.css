@@ -272,7 +272,7 @@ blockquote p {
 }
 
 .logo-footer {
-  width: 250px;
+  width: 230px;
   fill: red;
   background-color: white;
 }
@@ -285,9 +285,13 @@ blockquote p {
   color: rgb(65, 62, 62);
 }
 
+.copyright-font {
+  font-size: 13px;
+}
+
 .border-rf {
   border-right: 1px solid rgb(182, 178, 178);
-  font-size: 15px;
+  font-size: 13px;
 }
 
 @media (max-width: 983px) {
