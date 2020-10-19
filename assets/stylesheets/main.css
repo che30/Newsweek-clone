@@ -91,7 +91,7 @@ a {
 .search {
   position: absolute;
   right: 65px;
-  top: 110px;
+  top: 20px;
 }
 
 .space {
@@ -287,7 +287,6 @@ blockquote p {
 
 .border-rf {
   border-right: 1px solid rgb(182, 178, 178);
-  padding-right: 5px;
   font-size: 15px;
 }
 
