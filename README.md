@@ -30,7 +30,6 @@ A clone of the newsweek magazine for microverse
 **Che Blanchard**
 
 - GitHub: [@che30](https://github.com/che30)
-- Twitter: [@BlanchardNsoh](https://twitter.com/BlanchardNsoh )
 - LinkedIn: [Che Blanchard](https://www.linkedin.com/in/che-nsoh-9455271b0/)
 
 
