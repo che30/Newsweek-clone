@@ -19,6 +19,13 @@ A clone of the newsweek magazine for microverse
 [Live Demo Link](https://che30.github.io/Newsweek-clone/)
 
 ## Author
+**Che Blanchard**
+
+- GitHub: [@che30](https://github.com/che30)
+- LinkedIn: [Che Blanchard](https://www.linkedin.com/in/che-nsoh-9455271b0/)
+
+
+## Acknowledgements
 
 **Che Blanchard**
 

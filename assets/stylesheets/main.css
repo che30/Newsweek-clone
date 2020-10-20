@@ -20,6 +20,15 @@ body {
   right: -10px;
   z-index: -1;
 }
+.fix-1 {
+  top: -28px;
+}
+.fix-2 {
+bottom: 28px;
+}
+.fix-3 {
+  bottom: 27px;
+}
 
 .nav-top {
   background-color: red;
@@ -171,14 +180,34 @@ blockquote p {
   background-repeat: no-repeat;
   height: 350px;
 }
+.fix-6 {
+   top: -20px;
 
+} 
+.absolute{
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
 .sign-1-btn {
   width: 250px;
   background-color: rgb(245, 17, 17);
   border: 3px solid red;
   border-radius: 2px;
 }
-
+.see-all {
+ top: -25px;
+}
+.fix-1 {
+  top
+}
+.width-172 {
+  width: 200px;
+}
+.width-300{
+  max-width: 280px;
+}
 .rgb-c {
   position: relative;
 }
@@ -190,6 +219,11 @@ blockquote p {
 .text-red {
   color: red;
 }
+
+.mag-cat {
+  background-color: red;
+  color: white;
+} 
 
 .color-black {
   color: rgb(5, 4, 4);
@@ -251,6 +285,9 @@ blockquote p {
 .starting-right-border {
   border: 1px solid rgb(221, 218, 218);
 }
+.starting {
+  font-size: 20px;
+}
 
 .btn-red {
   background-color: red;
@@ -293,6 +330,9 @@ blockquote p {
   border-right: 1px solid rgb(182, 178, 178);
   font-size: 13px;
 }
+.height-ul {
+  height: 100px;
+}
 
 @media (max-width: 983px) {
   .brand {
@@ -300,17 +340,8 @@ blockquote p {
   }
 }
 
-@media (max-width: 801px) {
+ @media (max-width: 801px) {
   .news-let-form {
     height: 200px;
   }
-}
-
-@media (min-width: 985px) {
-  .middle-nav li {
-    padding-right: 15px;
-    padding-left: 5px;
-    font-weight: 900;
-    font-size: 10px;
-  }
-}
+} 
