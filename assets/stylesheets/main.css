@@ -185,7 +185,7 @@ blockquote p {
 }
 
 .fix-6 {
-  top: -20px;
+  top: -24px;
 }
 
 .absolute {
@@ -212,7 +212,19 @@ blockquote p {
 }
 
 .width-300 {
-  max-width: 280px;
+  width: auto;
+}
+
+.height-300 {
+  height: 300px;
+}
+
+.politics-2 {
+  bottom: 28px;
+}
+
+.image-info-h {
+  padding-right: 67px;
 }
 
 .rgb-c {

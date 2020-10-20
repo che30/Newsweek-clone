@@ -2,9 +2,10 @@
 A clone of the newsweek magazine for microverse
 # The next web
 
-# A responsive web design based on The next web website made for learning purposes
+# A responsive web design based on The newsweek website made for learning purposes.
+## The purpose of the project is to test microverse students mastery of the bootsrap framework and ensure they build responsive webpages across the following viewports. Large screens(laptots) medium screens(tablets) and small screens(Some some smart phones)
 
-![screenshot](./assets/images/screencapture.png)
+![screenshot](./assets/images/screenshotNewsweek.png)
 
 
 ## Built With
@@ -38,6 +39,7 @@ A clone of the newsweek magazine for microverse
 - W3 schools
 - Font awesome
 - Stack overflow
+- Myself CHE NSOH BLANCHARD
 
 ##  Contributing
 
