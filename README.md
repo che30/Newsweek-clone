@@ -31,7 +31,6 @@ The purpose of the project is to test microverse students, mastery of the bootsr
 - W3 schools
 - Font awesome
 - Stack overflow
-- Myself CHE NSOH BLANCHARD
 
 ##  Contributing
 
