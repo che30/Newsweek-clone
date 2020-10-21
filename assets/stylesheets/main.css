@@ -376,13 +376,14 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 40%;
     margin-bottom: -150px;
-    padding-right: 3%;
+    padding-right: 5%;
   }
 
   .free-subscribe-img {
     position: relative;
     top: 80px;
     left: 25%;
+    padding-right: 20%;
   }
 
   .free-subscribe-info {
@@ -396,7 +397,7 @@ footer {
 
   .inp-bg-btn-red {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 45% 40%;
   }
 
   .inp-bg {
