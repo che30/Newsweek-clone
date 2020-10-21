@@ -249,9 +249,9 @@ blockquote p {
 }
 
 .on-rgb {
-  position: absolute;
-  left: -220px;
-  top: 25px;
+ 
+bottom: 170px;
+right: -70px;
 }
 
 .fx-150 {
@@ -285,10 +285,6 @@ blockquote p {
   font-size: 16px;
 }
 
-.inp-bg {
-  width: 100%;
-}
-
 .bt-thick-grey {
   border-top: 3px solid grey;
 }
@@ -304,11 +300,14 @@ blockquote p {
 .starting-right-border {
   border: 1px solid rgb(221, 218, 218);
 }
-
+.inp-bg
+{
+  width: 83%;
+}
 .btn-red {
   background-color: red;
   border: 1px solid red;
-  width: 100%;
+  width: 90%;
 }
 
 .news-let-form {
@@ -361,4 +360,64 @@ blockquote p {
   .news-let-form {
     height: 200px;
   }
+}
+
+@media (max-width: 769px) {
+  .free-subscribe {
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40%;
+    margin-bottom: -150px;
+    padding-right: 3%;
+   
+  
+
+  }
+
+  .free-subscribe-img {
+    position: relative;
+    top: 40px;
+    left: 25%;
+   
+  }
+
+  .free-subscribe-info {
+    margin-left: 30px;
+  }
+
+  .sb {
+  position: relative;
+  left:30%;
+  }
+
+  .inp-bg-btn-red {
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+  .inp-bg {
+    grid-column: 1/2;
+    margin-left: 50%;
+    width: 100%;
+  }
+  .btn-red {
+    grid-column: 2/3;
+    height: 30px;
+  } 
+
+}
+@media (max-width: 992px) and (min-width: 770px) {
+  .inp-bg-btn-red {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-left: 0;
+   margin-left: -90px;
+  }
+  .inp-bg {
+    grid-column: 1/2;
+    margin-left: 50%;
+  }
+  .btn-red {
+    grid-column: 2/3;
+    height: 30px;
+  } 
 }
