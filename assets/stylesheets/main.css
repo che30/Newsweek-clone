@@ -1,0 +1,447 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* main wrapper */
+
+.trouble-logo {
+  position: relative;
+}
+
+.rectangle {
+  height: 20px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 91px;
+  right: -10px;
+  z-index: -1;
+}
+
+.fix-1 {
+  top: -28px;
+}
+
+.fix-2 {
+  bottom: 28px;
+}
+
+.fix-3 {
+  bottom: 27px;
+}
+
+.nav-top {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav .fas-user {
+  font-size: 15px;
+}
+
+.nav .fa-menu {
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+}
+
+.width-80 {
+  width: 80px;
+}
+
+.triangle-right {
+  height: 30px;
+  z-index: -1;
+  position: absolute;
+  right: 75px;
+  top: 55px;
+  transform: rotate(-72deg);
+  border-top: 25px solid transparent;
+  border-left: 50px solid red;
+  border-bottom: 25px solid transparent;
+}
+
+.btn-sm {
+  border-radius: 24px;
+  background-color: yellow;
+}
+
+.middle-nav {
+  margin-top: 100px;
+  position: relative;
+  font-weight: 900;
+}
+
+.border-bottom {
+  border-bottom: 1px solid#f4f5f7;
+}
+
+.border-right {
+  border-right: 1px solid rgb(182, 178, 178);
+  text-align: center;
+}
+
+.middle-nav li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.middle-nav input {
+  width: 80px;
+  margin-right: 60px;
+}
+
+.search {
+  position: absolute;
+  right: 65px;
+  top: 20px;
+}
+
+.space {
+  padding-right: 10px;
+  padding-left: 50px;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+.form-width {
+  border: none;
+}
+
+.grey {
+  color: #807f84;
+}
+
+.nav-bottom > li {
+  font-size: 15px;
+  line-height: 5px;
+  font-weight: 900;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.nav-bottom li a {
+  text-decoration: none;
+}
+
+blockquote p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+}
+
+.hover-red:hover {
+  color: red;
+}
+
+.brand {
+  width: 400px;
+  height: 100%;
+  fill: white;
+}
+
+.countries img,
+.my-turn img,
+.width-100 {
+  width: 100%;
+  height: auto;
+}
+
+.font-size-small {
+  font: bold 15px "Roboto Condensed", sans-serif;
+}
+
+.starting {
+  font-size: 25px;
+}
+
+.sign-1 {
+  background-color: rgb(238, 235, 235);
+  width: 275px;
+}
+
+.sign-1 input {
+  width: 245px;
+}
+
+.apply-bg-img {
+  background-image: url("https://d.newsweek.com/en/full/1653518/cover-october-23-2020.jpg?w=360&h=480&q=90&f=e8aecc49d91d80d4475f9fe710c46554");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.fix-6 {
+  top: -24px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sign-1-btn {
+  width: 250px;
+  background-color: rgb(245, 17, 17);
+  border: 3px solid red;
+  border-radius: 2px;
+}
+
+.see-all {
+  top: -25px;
+}
+
+.width-172 {
+  width: 200px;
+}
+
+.width-300 {
+  width: auto;
+}
+
+.height-300 {
+  height: 300px;
+}
+
+.politics-2 {
+  bottom: 28px;
+}
+
+.image-info-h {
+  padding-right: 67px;
+}
+
+.rgb-c {
+  position: relative;
+}
+
+.background-grey {
+  background-color: rgb(243, 242, 242);
+}
+
+.text-red {
+  color: red;
+}
+
+.mag-cat {
+  background-color: red;
+  color: white;
+}
+
+.color-black {
+  color: rgb(5, 4, 4);
+}
+
+.on-rgb {
+  bottom: 170px;
+  right: -70px;
+}
+
+.fx-150 {
+  width: 150px;
+}
+
+.fx-150-2 {
+  width: 150px;
+}
+
+.light-grey {
+  color: rgb(39, 38, 38);
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.color-black-1 {
+  font-size: 20px;
+}
+
+.free-subscribe {
+  margin-bottom: -30px;
+}
+
+.sb {
+  width: 120px;
+  background-color: rgb(248, 19, 19);
+  border-radius: 2px;
+  border: 2px solid red;
+}
+
+.my-turn h6 a {
+  font-size: 16px;
+}
+
+.bt-thick-grey {
+  border-top: 3px solid grey;
+}
+
+.special-grey {
+  border-top: 2px solid rgb(189, 187, 187);
+}
+
+.font-in-depth {
+  font-size: 25px;
+}
+
+.starting-right-border {
+  border: 1px solid rgb(221, 218, 218);
+}
+
+.inp-bg {
+  width: 83%;
+}
+
+.btn-red {
+  background-color: red;
+  border: 1px solid red;
+  width: 90%;
+}
+
+.news-let-form {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* footersection */
+footer {
+  width: 95%;
+  padding: 0 1% 0 1%;
+}
+
+.social-f {
+  font-size: 30px;
+}
+
+.logo-footer {
+  width: 230px;
+  fill: red;
+  background-color: white;
+}
+
+.footer-list {
+  border: solid;
+}
+
+.hover-brown:hover {
+  color: rgb(65, 62, 62);
+}
+
+.copyright-font {
+  font-size: 13px;
+}
+
+.border-rf {
+  border-right: 1px solid rgb(182, 178, 178);
+  font-size: 13px;
+}
+
+.height-ul {
+  height: 100px;
+}
+
+@media (max-width: 568px)
+{
+  .featured-story {
+    order: 2;
+  }
+
+  .top-story {
+    order: 1;
+  }
+}
+@media (max-width: 983px) {
+  .brand {
+    width: 100px;
+  }
+}
+
+@media (max-width: 801px) {
+  .news-let-form {
+    height: 200px;
+  }
+}
+
+@media (max-width: 769px) {
+  .free-subscribe {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40%;
+    margin-bottom: -150px;
+    padding-right: 5%;
+  }
+
+  .free-subscribe-img {
+    position: relative;
+    top: 80px;
+    left: 25%;
+    padding-right: 20%;
+  }
+
+  .free-subscribe-info {
+    margin-left: 30px;
+  }
+
+  .sb {
+    position: relative;
+    left: 30%;
+  }
+
+  .inp-bg-btn-red {
+    display: grid;
+    grid-template-columns: 45% 40%;
+  }
+
+  .inp-bg {
+    grid-column: 1/2;
+    margin-left: 50%;
+    width: 100%;
+  }
+
+  .btn-red {
+    grid-column: 2/3;
+    height: 30px;
+  }
+
+  .footer-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 770px) {
+  .inp-bg-btn-red {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-left: 0;
+    margin-left: -90px;
+  }
+
+  .inp-bg {
+    grid-column: 1/2;
+    margin-left: 50%;
+  }
+
+  .btn-red {
+    grid-column: 2/3;
+    height: 30px;
+  }
+}
