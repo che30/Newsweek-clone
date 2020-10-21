@@ -358,6 +358,16 @@ footer {
   height: 100px;
 }
 
+@media (max-width: 568px)
+{
+  .featured-story {
+    order: 2;
+  }
+
+  .top-story {
+    order: 1;
+  }
+}
 @media (max-width: 983px) {
   .brand {
     width: 100px;
