@@ -249,9 +249,8 @@ blockquote p {
 }
 
 .on-rgb {
- 
-bottom: 170px;
-right: -70px;
+  bottom: 170px;
+  right: -70px;
 }
 
 .fx-150 {
@@ -273,6 +272,7 @@ right: -70px;
 .color-black-1 {
   font-size: 20px;
 }
+
 .free-subscribe {
   margin-bottom: -30px;
 }
@@ -303,10 +303,11 @@ right: -70px;
 .starting-right-border {
   border: 1px solid rgb(221, 218, 218);
 }
-.inp-bg
-{
+
+.inp-bg {
   width: 83%;
 }
+
 .btn-red {
   background-color: red;
   border: 1px solid red;
@@ -325,6 +326,7 @@ footer {
   width: 95%;
   padding: 0 1% 0 1%;
 }
+
 .social-f {
   font-size: 30px;
 }
@@ -370,21 +372,17 @@ footer {
 
 @media (max-width: 769px) {
   .free-subscribe {
-     display: grid;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40%;
     margin-bottom: -150px;
     padding-right: 3%;
-   
-  
-
   }
 
   .free-subscribe-img {
     position: relative;
     top: 80px;
     left: 25%;
-   
   }
 
   .free-subscribe-info {
@@ -392,42 +390,47 @@ footer {
   }
 
   .sb {
-  position: relative;
-  left:30%;
+    position: relative;
+    left: 30%;
   }
 
   .inp-bg-btn-red {
     display: grid;
     grid-template-columns: 40% 40%;
   }
+
   .inp-bg {
     grid-column: 1/2;
     margin-left: 50%;
     width: 100%;
   }
+
   .btn-red {
     grid-column: 2/3;
     height: 30px;
   }
-  .footer-1 {
-  display: grid;
-grid-template-columns: 1fr;
-  }
 
+  .footer-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
+
 @media (max-width: 992px) and (min-width: 770px) {
   .inp-bg-btn-red {
     display: grid;
     grid-template-columns: 60% 40%;
     padding-left: 0;
-   margin-left: -90px;
+    margin-left: -90px;
   }
+
   .inp-bg {
     grid-column: 1/2;
     margin-left: 50%;
   }
+
   .btn-red {
     grid-column: 2/3;
     height: 30px;
-  } 
+  }
 }
