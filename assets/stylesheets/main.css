@@ -273,6 +273,9 @@ right: -70px;
 .color-black-1 {
   font-size: 20px;
 }
+.free-subscribe {
+  margin-bottom: -30px;
+}
 
 .sb {
   width: 120px;
@@ -318,7 +321,10 @@ right: -70px;
 }
 
 /* footersection */
-
+footer {
+  width: 95%;
+  padding: 0 1% 0 1%;
+}
 .social-f {
   font-size: 30px;
 }
@@ -376,7 +382,7 @@ right: -70px;
 
   .free-subscribe-img {
     position: relative;
-    top: 40px;
+    top: 80px;
     left: 25%;
    
   }
@@ -402,7 +408,11 @@ right: -70px;
   .btn-red {
     grid-column: 2/3;
     height: 30px;
-  } 
+  }
+  .footer-1 {
+  display: grid;
+grid-template-columns: 1fr;
+  }
 
 }
 @media (max-width: 992px) and (min-width: 770px) {
