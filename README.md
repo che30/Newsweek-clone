@@ -21,6 +21,7 @@ The purpose of the project is to test microverse students, mastery of the bootsr
 
 - GitHub: [@che30](https://github.com/che30)
 - LinkedIn: [Che Blanchard](https://www.linkedin.com/in/che-nsoh-9455271b0/)
+- Twitter:[@che55085128](https://twitter.com/che55085128)
 
 
 ## Acknowledgements
